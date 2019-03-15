@@ -1,7 +1,7 @@
 ---
 title: Blue Print of CreaToken
 date: "2019-03-08"
-featuredImage: './featured.jpg'
+featuredImage: './blue_print.jpg'
 ---
 
 Welcome to CreaToken, I hope you enjoy your stay! This is the blue print of what I am going to do with this site.
