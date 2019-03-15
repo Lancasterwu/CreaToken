@@ -1,7 +1,7 @@
 module.exports = {
   title: 'CreaToken', // Required
   author: 'The Creative Token Market', // Required
-  description: 'Allegheny College Lancaster Wu',
+  description: 'Full-stack Web Developer',
   primaryColor: '#3498db', // Required
   showHeaderImage: true,
   showShareButtons: true,
