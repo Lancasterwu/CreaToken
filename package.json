@@ -21,15 +21,12 @@
     "gatsby-remark-prismjs": "^3.0.2",
     "gatsby-remark-responsive-iframe": "^2.0.5",
     "gatsby-remark-smartypants": "^2.0.5",
-    "gatsby-source-filesystem": "^2.0.26",
-    "gatsby-transformer-json": "^1.0.20",
+    "gatsby-source-filesystem": "^2.0.5",
     "gatsby-transformer-remark": "^2.1.9",
     "gatsby-transformer-sharp": "^2.1.5",
-    "graphql": "^14.1.1",
     "lodash": "^4.17.5",
     "prismjs": "^1.15.0",
     "react": "^16.3.2",
-    "react-apollo": "^2.5.2",
     "react-dom": "^16.3.2",
     "react-helmet": "^5.2.0",
     "styled-components": "^3.3.3",
@@ -53,7 +50,7 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ryanfitzgerald/devblog.git"
-  },
+},
   "scripts": {
     "dev": "gatsby develop",
     "lint": "./node_modules/.bin/eslint --ext .js,.jsx --ignore-pattern public .",
