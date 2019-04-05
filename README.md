@@ -1,4 +1,4 @@
-# DevBlog
+# CreaToken
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/a01b36e7-0c87-4645-845a-bcaaf063b561/deploy-status)](https://app.netlify.com/sites/creative-token-share/deploys)
 
