@@ -33,10 +33,15 @@
     "styled-normalize": "^8.0.0"
   },
   "devDependencies": {
+    "babel-jest": "^24.7.1",
+    "babel-preset-gatsby": "^0.1.11",
     "eslint": "^4.19.1",
     "eslint-plugin-react": "^7.7.0",
     "gh-pages": "^1.1.0",
-    "prettier": "^1.12.0"
+    "identity-obj-proxy": "^3.0.0",
+    "jest": "^24.7.1",
+    "prettier": "^1.12.0",
+    "react-test-renderer": "^16.8.6"
   },
   "homepage": "https://github.com/ryanfitzgerald/devblog#readme",
   "keywords": [
@@ -50,7 +55,7 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ryanfitzgerald/devblog.git"
-},
+  },
   "scripts": {
     "dev": "gatsby develop",
     "lint": "./node_modules/.bin/eslint --ext .js,.jsx --ignore-pattern public .",
