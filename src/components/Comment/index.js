@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import styled from "styled-components";
 import md5 from "md5";
-import { withSiteConfig } from "../SiteConfig";
+import userConfig from '../../../config';
 
 import "gitalk/dist/gitalk.css";
 
@@ -40,4 +40,4 @@ class Comment extends Component {
   }
 }
 
-export default withSiteConfig(Comment);
+export default Comment;
