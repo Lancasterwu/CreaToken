@@ -1,7 +1,7 @@
-import { injectGlobal } from 'styled-components';
+import { createGlobalStyle }  from 'styled-components';
 import styledNormalize from 'styled-normalize';
 
-injectGlobal`
+createGlobalStyle`
   ${styledNormalize}
   
   @import url("https://fonts.googleapis.com/css?family=Roboto:400,700");
