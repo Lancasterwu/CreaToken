@@ -12,6 +12,7 @@ import ArticleHeader from '../components/ArticleHeader';
 import Button from '../components/Button';
 import Card from '../components/Card';
 import Container from '../components/Container';
+import Comment from '../components/Comment';
 import FeaturedImage from '../components/FeaturedImage';
 import PageNav from '../components/PageNav';
 import Share from '../components/Share';
