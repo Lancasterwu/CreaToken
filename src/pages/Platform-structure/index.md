@@ -1,7 +1,7 @@
 ---
 title: Platform Structure
 date: "2019-04-26"
-featuredImage: 'https://i.imgur.com/gVX3yPJ.gif'
+featuredImage: './colorful.gif'
 ---
 
 This platform will have two primary features: Post and Request
