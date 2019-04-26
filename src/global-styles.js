@@ -3,9 +3,9 @@ import styledNormalize from 'styled-normalize';
 
 createGlobalStyle`
   ${styledNormalize}
-  
+
   @import url("https://fonts.googleapis.com/css?family=Roboto:400,700");
-  
+
   *,
   *:before,
   *:after {
@@ -21,7 +21,8 @@ createGlobalStyle`
 
   body {
     background: #f9fafc;
-    font-family: 'Open Sans', sans-serif; 
+    background-image: url("src/pages/Platform-structure/colorful.gif")
+    font-family: 'Open Sans', sans-serif;
     line-height: 1.5;
     padding: 50px 0;
     -webkit-font-smoothing: antialiased;
