@@ -57,7 +57,6 @@ class BlogPostTemplate extends React.Component {
             {userConfig.showShareButtons && (
               <Share url={url} title={post.frontmatter.title} />
             )}
-            <Comment config={userConfig} title={post.frontmatter.title} />
           </Card>
 
           <PageNav>
