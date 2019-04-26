@@ -1,7 +1,8 @@
 import React, { Component } from "react";
 import styled from "styled-components";
 import md5 from "md5";
-import userConfig from '../../../config';
+import { withSiteConfig } from "../SiteConfig";
+import userConfig from '../../config';
 
 import "gitalk/dist/gitalk.css";
 
@@ -11,7 +12,7 @@ const Wrapper = styled.div.attrs({
   margin: 40px 0 10px 0;
 `;
 
-class Comment extends Component {
+class Comment extends React.Component {
   componentDidMount() {
     const { title, siteConfig } = this.props;
     const { clientID, clientSecret, repo, owner, admin } = siteConfig.gitalk;
@@ -40,4 +41,4 @@ class Comment extends Component {
   }
 }
 
-export default Comment;
+export default withSiteConfig(Comment);
