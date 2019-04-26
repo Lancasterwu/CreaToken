@@ -1,12 +1,12 @@
 ---
 title: Platform Structure
 date: "2019-04-26"
-featuredImage: './colorful.gif'
 ---
 
 This platform will have two primary features: Post and Request
 
 <!-- end -->
+![Colorful](./colorful.gif)
 
 # Post
 
