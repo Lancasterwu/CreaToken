@@ -1,6 +1,6 @@
 ---
 title: CreaToken Presentation
-date: "2019-05-4"
+date: "2019-05-04"
 ---
 
 This is the google slide presentation I gave to Big Idea Competition at Allegheny College
